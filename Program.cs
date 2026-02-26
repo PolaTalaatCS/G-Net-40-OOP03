@@ -8,11 +8,11 @@ namespace G_Net_40_OOP03
         static void Main(string[] args)
         {
             #region Question 1 
-            // a) compsotion
-            // b) association
-            // c) inheritance
-            // d) aggregation
-            // e) dependency
+            // a)) compsotion
+            // b)) association
+            // c)_ inheritance
+            // d)) aggregation
+            // e)) dependency
             #endregion
             #region Question 2
             // a)) yes Can a child class in a different assembly access it , No, you can’t access it using an object from outside.
