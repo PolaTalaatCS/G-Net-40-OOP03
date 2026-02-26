@@ -47,7 +47,7 @@ namespace G_Net_40_OOP03
         {
             return $"Movie name: {moviename}, Price: {price}, Ticket id: {Ticketid}";
         }
-        static int GetTotalTickets()
+       public static int GetTotalTickets()
         {
             return idcounter;
         }
@@ -80,20 +80,7 @@ namespace G_Net_40_OOP03
                     return base.ToString() + $", Launge access: {laungeaccess}, Service fee: {servicefee}";
                 }
             }
-            public class imaxticket : Ticket
-            {
-                private string screen;
-                static decimal imaxfee = 30;
-                public string Screen { get; set; }
-                public imaxticket(string _moviename, decimal _price, string _screen) : base(_moviename, _price)
-                {
-                    screen = _screen;
-                }
-                public override string ToString()
-                {
-                    return base.ToString() + $", Screen: {screen}, IMAX fee: {imaxfee}";
-                }
-            }
+ 
             public class Iamxticket : Ticket
             {
                 private bool is3d;
@@ -169,6 +156,7 @@ namespace G_Net_40_OOP03
             }
         }
         #endregion
+
     }
 
 }
